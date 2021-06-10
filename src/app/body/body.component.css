@@ -1,0 +1,110 @@
+ .bg-image {
+            background-image: url("https://i.postimg.cc/3wfq9L4X/bg-image.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        
+        
+        
+        
+        .breadcumb-div {
+            position: relative;
+            display: flex;
+        }
+        
+        .card-header {
+            border-left-color: rgb(113, 113, 185)
+        }
+        
+        .bg-blue {
+            background-image: linear-gradient(#3a3a97, #0062cc);
+            background-color: rgb(58, 58, 151);
+        }
+        
+        .flex-box {
+            display: flex;
+        }
+        /* house details  */
+        
+        .house-details {
+            justify-content: space-between;
+            margin: 20px;
+        }
+        
+        .input-group-text {
+            background-image: linear-gradient(#3a3a97, #0062cc);
+            color: #FFF;
+        }
+        /* end details  */
+        /* declaration  */
+        
+        .borderleft {
+            border-left: 5px solid #dc3545;
+        }
+        /* end dexlaration */
+        /* btn custom */
+        
+        .btn-primary-custom {
+            font-family: Raleway-SemiBold;
+            font-size: 13px;
+            color: rgba(58, 133, 191, 0.75);
+            letter-spacing: 1px;
+            line-height: 15px;
+            border: 2px solid rgba(58, 133, 191, 0.75);
+            border-radius: 40px;
+            background: transparent;
+            transition: all 0.3s ease 0s;
+        }
+        
+        .btn-primary-custom:hover {
+            color: #FFF;
+            background: rgba(58, 133, 191, 0.75);
+            border: 2px solid rgba(58, 133, 191, 0.75);
+        }
+        
+        .text-field {
+            width: 50%;
+        }
+        
+        .mat-radio-button~.mat-radio-button {
+            margin-left: 16px;
+        }
+        
+        .radio-size {
+            font-weight: 500px;
+            font-size: medium;
+        }
+        
+        .mandatory-field {
+            font-weight: 500;
+            font-style: Roboto;
+        }
+        
+        .house-rent-labels {
+            font-weight: bold;
+            font-size: 15px;
+        }
+        
+        .alert-primary {
+            color: #aa0202;
+            background-color: transparent;
+            border-color: transparent;
+        }
+/**/
+.example-container{
+  margin-left: 2px;
+}
+
+.example-right-align {
+  text-align: right;
+}
+
+input.example-right-align::-webkit-outer-spin-button,
+input.example-right-align::-webkit-inner-spin-button {
+  display: none;
+}
+
+input.example-right-align {
+  -moz-appearance: textfield;
+}
